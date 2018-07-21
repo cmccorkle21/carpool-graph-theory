@@ -1,0 +1,21 @@
+public ArrayList<ArrayList<Edge>> makeGroups(ArrayList<Edge> sortedEdges){
+	
+	create arraylist of carpool groups, the outer list being as long as numGroups
+
+	for (i=0; i<3; i++){//each time this loop runs, one 5 person carpool group should be created.
+
+		Find smallest edge (going to be the first in the list of sorted Edges)
+			Add these two students to carpool group i+1
+
+		Find smallest edge that contains either s1 or s2 from first edge -- henceforth s3
+			Add the new student(s3) in this edge to carpool group i+1
+			delete all instances of s1 or s2 from first edge
+
+		lastEdge = s3
+		for (int i=0 i<groupSize-3; i++){
+			find smallest edge that contains s3
+			delete all instances of s3
+		}
+	}
+
+}

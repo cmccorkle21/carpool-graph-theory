@@ -1,0 +1,21 @@
+Carpool
+
+API Keys:
+	Google Maps Geocoding API Key: AIzaSyB7TaYb8qpe8TLAB658Lwm2h8rFwlWlpgc
+	Google Maps Distance Matrix API Key: AIzaSyBe7kTXcUXNoll_Q29vrUkFcCLs-ZmiG5Y
+
+Student
+	int carCapacity - how many cars their car can hold
+
+Edges
+	arrivalTime - weight between 0 and 30, 0 means they are totally incompatible, 30 means they arrive at the same time
+
+	departureTime - weight between 0 and 30, 0 means they are totally incompatible, 30 means they leave at the same time
+
+	Distance - weight between 0 and 100, 0 meaning they are too far apart, 100 meaning they live together
+
+	Limit a students edges with the size of their car
+	
+
+Algorithm
+	The algorithm should prioritize size of groups (bigger is better) and strength of weights (bigger is better) to pick group
