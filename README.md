@@ -18,8 +18,8 @@ Download carpool-for-gh to a directory of your choice:
 
 ### Usage
 
-#### Student Data Format
-Student Data must be in a tsv file with this format:
+#### Participant Data Format
+Participant Data must be in a tsv file with this format:
 
 ```
 Elective1 [tab] firstName	[tab] lastName	[tab] Elective2	[tab] streetNumber streetName City [tab] State [tab] zipCode
