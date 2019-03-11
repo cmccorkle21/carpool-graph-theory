@@ -28,7 +28,7 @@ Elective1 [tab] firstName	[tab] lastName	[tab] Elective2	[tab] streetNumber stre
 
 ## Built With
 
-* [Java](https://java.com/en/download/) - The coding lannguage used
+* [Java](https://java.com/en/download/)
 * [Google APIs](https://developers.google.com/products/) - Map data analysis
 
 ## Authors
@@ -41,4 +41,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Christina Snyder, Computer Science teacher at Pace Academy
+* Christina Snyder, Computer Science, Pace Academy
